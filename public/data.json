@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Wedding ceremony",
+        "Category_bg_Color": "#f8714733",
+        "Card_bg_Color": "#f8714726",
+        "title": "Eternal Love Knot: A Magical Matrimony",
+        "price": 100000,
+        "image_url": "https://i.ibb.co/HV6cGZV/wedding.jpg",
+        "banner_url": "https://i.ibb.co/cFqhwqL/wedding1.jpg",
+        "description": "We provide event management services that Wedding event management is all about turning your dream wedding into a reality. Experienced event planners help you select the perfect venue, caterers, decor, and entertainment to create a magical and memorable day for you and your guests."
+    },
+    {
+        "id": 2,
+        "name": "Birthday party",
+        "price": 70000,
+        "Category_bg_Color": "#ff444a33",
+        "Card_bg_Color": "#ff444a26",
+        "title": "Ageless Joy: Celebrating Another Year",
+        "image_url": "https://i.ibb.co/56x39PF/birthday.jpg",
+        "banner_url": "https://i.ibb.co/F3SxkDm/Birthday1.jpg",
+        "description": "We provide Birthday party event management services that focuses on making your special day even more special. Event planners help you choose themes, decorations, entertainers, and everything needed to throw an unforgettable birthday celebration, whether it's for a child or an adult."
+    },
+    {
+        "id": 3,
+        "name": "Anniversary",
+        "price": 65000,
+        "image_url": "https://i.ibb.co/0MQhFr1/Anniversary.jpg",
+        "title": "Milestone Moments: Years of Endless Love",
+        "Category_bg_Color": "#79c23f33",
+        "Card_bg_Color": "#79c23f26",
+        "banner_url": "https://i.ibb.co/T4NcDdh/annivarsary1.jpg",
+        "description": "We provide Anniversary event management services that is about celebrating your love story in style. Event organizers work with you to plan a romantic and meaningful anniversary celebration, whether it's an intimate dinner, a grand party, or a destination getaway."
+    },
+    {
+        "id": 4,
+        "name": "Engagement Party",
+        "price": 75000,
+        "image_url": "https://i.ibb.co/D9tGDwc/Engagement.jpg",
+        "title": "Promise of Forever: A Sparkling Proposal",
+        "Category_bg_Color": "#0052ff33",
+        "Card_bg_Color": "#0052ff26",
+        "banner_url": "https://i.ibb.co/k8sp7DP/engagement1.jpg",
+        "description": "Immerse yourself in music with these high-quality wireless headphones."
+    },
+    {
+        "id": 5,
+        "name": "Retirement Party",
+        "price": 76000,
+        "image_url": "https://i.ibb.co/sVHTdfF/retirement.jpg",
+        "title": "A New Beginning: Honoring a Lifetime of Achievement",
+        "Category_bg_Color": "#ffbc6d33",
+        "Card_bg_Color": "#ffbc5c33",
+        "banner_url": "https://i.ibb.co/nbt8VLN/retirement1.jpg",
+        "description": "We provide Retirement event management services that helps individuals bid farewell to their professional lives in a memorable way. Event planners assist in organizing retirement parties or gatherings that honor the retiree's accomplishments and allow them to start this new chapter with joy and well-wishes."
+    },
+    {
+        "id": 6,
+        "name": "Baby shower",
+        "price": 80000,
+        "image_url": "https://i.ibb.co/Tr3mt6S/baby-shower.jpg",
+        "title": "Blossoming Love: Welcoming a Little Miracle",
+        "Category_bg_Color": "#ffbc6d33",
+        "Card_bg_Color": "#875c6433",
+        "banner_url": "https://i.ibb.co/tMqb39X/Baby-shower1.jpg",
+        "description": "We provide Baby shower event management services that is all about welcoming a new life into the world with joy and excitement. Event coordinators assist in planning and executing baby showers, helping to choose themes, games, decorations, and creating a warm and inviting atmosphere for the expecting parents and their guests."
+    }
+]
+
+
+
+
