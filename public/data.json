@@ -8,6 +8,11 @@
         "price": 100000,
         "image_url": "https://i.ibb.co/HV6cGZV/wedding.jpg",
         "banner_url": "https://i.ibb.co/cFqhwqL/wedding1.jpg",
+        "gallery1": "https://i.ibb.co/q0WxGs6/pexels-bashir-olawoyin-2074911.jpg",
+        "gallery2": "https://i.ibb.co/LvpVJvX/pexels-jinto-mathew-11146331.jpg",
+        "gallery3": "https://i.ibb.co/2j9DSm3/pexels-joel-santos-15641351.jpg",
+        "gallery4": "https://i.ibb.co/0DyQY28/pexels-nathan-cowley-1128782.jpg",
+
         "description": "We provide event management services that Wedding event management is all about turning your dream wedding into a reality. Experienced event planners help you select the perfect venue, caterers, decor, and entertainment to create a magical and memorable day for you and your guests."
     },
     {
@@ -19,6 +24,10 @@
         "title": "Ageless Joy: Celebrating Another Year",
         "image_url": "https://i.ibb.co/56x39PF/birthday.jpg",
         "banner_url": "https://i.ibb.co/F3SxkDm/Birthday1.jpg",
+        "gallery1": "https://i.ibb.co/FwCX3zk/pexels-anna-shvets-3905653.jpg",
+        "gallery2": "https://i.ibb.co/S0SjnNR/pexels-august-de-richelieu-4262414.jpg",
+        "gallery3": "https://i.ibb.co/5shkN6h/pexels-ivan-samkov-9628344.jpg",
+        "gallery4": "https://i.ibb.co/VCypfb3/pexels-john-cahil-rom-2607036.jpg",
         "description": "We provide Birthday party event management services that focuses on making your special day even more special. Event planners help you choose themes, decorations, entertainers, and everything needed to throw an unforgettable birthday celebration, whether it's for a child or an adult."
     },
     {
@@ -30,6 +39,10 @@
         "Category_bg_Color": "#79c23f33",
         "Card_bg_Color": "#79c23f26",
         "banner_url": "https://i.ibb.co/T4NcDdh/annivarsary1.jpg",
+        "gallery1": "https://i.ibb.co/Vtn4sfS/pexels-asad-photo-maldives-1024984.jpg",
+        "gallery2": "https://i.ibb.co/T8CMFVk/pexels-cottonbro-studio-3154367.jpg",
+        "gallery3": "https://i.ibb.co/KzwB6gk/pexels-cottonbro-studio-3171204.jpg",
+        "gallery4": "https://i.ibb.co/vkdsyPD/pexels-ivan-samkov-7910460.jpg",
         "description": "We provide Anniversary event management services that is about celebrating your love story in style. Event organizers work with you to plan a romantic and meaningful anniversary celebration, whether it's an intimate dinner, a grand party, or a destination getaway."
     },
     {
@@ -41,7 +54,11 @@
         "Category_bg_Color": "#0052ff33",
         "Card_bg_Color": "#0052ff26",
         "banner_url": "https://i.ibb.co/k8sp7DP/engagement1.jpg",
-        "description": "Immerse yourself in music with these high-quality wireless headphones."
+        "gallery1": "https://i.ibb.co/CtzMCG1/engage1.jpg",
+        "gallery2": "https://i.ibb.co/x7Tsvhf/engage2.jpg",
+        "gallery3": "https://i.ibb.co/ryjM9Hg/engage3.jpg",
+        "gallery4": "https://i.ibb.co/86B2cGC/engage4.jpg",
+        "description": "Social engagement refers to the interaction and involvement of individuals with others in a social or community setting. This can include conversations, networking,"
     },
     {
         "id": 5,
@@ -52,6 +69,10 @@
         "Category_bg_Color": "#ffbc6d33",
         "Card_bg_Color": "#ffbc5c33",
         "banner_url": "https://i.ibb.co/nbt8VLN/retirement1.jpg",
+        "gallery1": "https://i.ibb.co/PMJ5X3Y/retirement1.jpg",
+        "gallery2": "https://i.ibb.co/tH8yhph/retirement2.jpg",
+        "gallery3": "https://i.ibb.co/T1cT09K/retirement3.jpg",
+        "gallery4": "https://i.ibb.co/0FZ2zmT/retirement4.jpg",
         "description": "We provide Retirement event management services that helps individuals bid farewell to their professional lives in a memorable way. Event planners assist in organizing retirement parties or gatherings that honor the retiree's accomplishments and allow them to start this new chapter with joy and well-wishes."
     },
     {
@@ -63,6 +84,10 @@
         "Category_bg_Color": "#ffbc6d33",
         "Card_bg_Color": "#875c6433",
         "banner_url": "https://i.ibb.co/tMqb39X/Baby-shower1.jpg",
+        "gallery1": "https://i.ibb.co/GHfP6q1/baby1.jpg",
+        "gallery2": "https://i.ibb.co/fHL51xb/baby2.jpg",
+        "gallery3": "https://i.ibb.co/qnnjx0j/baby3.jpg",
+        "gallery4": "https://i.ibb.co/hX42wG6/baby4.jpg",
         "description": "We provide Baby shower event management services that is all about welcoming a new life into the world with joy and excitement. Event coordinators assist in planning and executing baby showers, helping to choose themes, games, decorations, and creating a warm and inviting atmosphere for the expecting parents and their guests."
     }
 ]

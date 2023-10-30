@@ -14,17 +14,17 @@ const Navbar = () => {
             <div className="flex gap-7">
                 <NavLink to="/"
                     className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "text-red-500 underline font-bold" : ""
+                        isPending ? "pending" : isActive ? "text-white bg-red-800 px-2  rounded-md  font-bold" : ""
                     }
                 >Home</NavLink>
                 <NavLink to="/about"
                     className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "text-red-500 underline font-bold" : ""
+                        isPending ? "pending" : isActive ? "text-white bg-red-800 px-2  rounded-md  font-bold" : ""
                     }
-                >About</NavLink>
+                >About Us</NavLink>
                 <NavLink to="/services"
                     className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "text-red-500 underline font-bold" : ""
+                        isPending ? "pending" : isActive ? "text-white bg-red-800 px-2  rounded-md  font-bold" : ""
                     }
                 >Services</NavLink>
             </div>
