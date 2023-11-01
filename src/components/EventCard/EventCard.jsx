@@ -26,7 +26,7 @@ const EventCard = ({ event }) => {
                         <p className="text-2xl font-bold p-1 rounded-md" style={nameStyle}>{name}</p>
                         <div className="card-actions">
 
-                            <p className="text-3xl font-bold text-purple-700">Price: ${price}</p>
+                            <p className="text-3xl font-bold text-purple-700 font-lobster">Price: ${price}</p>
                         </div>
                     </div>
                 </div>

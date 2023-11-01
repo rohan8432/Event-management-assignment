@@ -6,8 +6,11 @@ import {
 import Root from "./Root/Root";
 import Home from "../Pages/Home/Home";
 import About from "../Pages/About/About";
-import Services from "../Pages/Services/Services";
+
 import EventDetails from "../components/EventDetails/EventDetails";
+import Login from "../components/Login/Login";
+import Register from "../components/Register/Register";
+import Services from "../pages/Services/Services";
 
   const router = createBrowserRouter([
     {
@@ -26,6 +29,14 @@ import EventDetails from "../components/EventDetails/EventDetails";
         {
           path: "/services",
           element: <Services></Services>
+        },
+        {
+          path: "/login",
+          element: <Login></Login>
+        },
+        {
+          path:"/register",
+          element: <Register></Register>
         },
         {
           path: "/event/:id",
