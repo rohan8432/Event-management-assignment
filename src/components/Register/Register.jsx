@@ -20,7 +20,18 @@ const Register = () => {
         const password = e.target.password.value;
         console.log(name,email, password);
 
+
         setRegisterError('');
+
+        if (password.length < 6) {
+            setRegisterError('Please use at least 6 character password for register')
+            return;
+        }
+        else if (!/[A-Z]/.test(password)) {
+            setRegisterError('Please give only one Upper case character');
+            return;
+        }
+     
 
         createUser(email, password)
         .then(result =>{
@@ -37,7 +48,7 @@ const Register = () => {
     }
     return (
         <div>
-           <div className="hero min-h-screen">
+           <div className="hero min-h-screen mb-6">
                 <div>
 
                     <h1 className="text-5xl font-bold my-8 text-center">Register now!</h1>
@@ -73,7 +84,7 @@ const Register = () => {
                             </div>
                             <p className='text-sm'>Already have an Account? Please <span className='text-blue-800 underline'><Link to="/login">Login</Link></span></p>
                             {
-                                registerError && <p className="mt-6 text-red-600">{registerError}</p>
+                                registerError && <p className="mt-6 text-red-600 text-sm">{registerError}</p>
                             }
                             {
                                 success && <p className="mt-6 text-green-600">{success}</p>

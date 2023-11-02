@@ -12,10 +12,11 @@ const EventDetailCard = ({ events }) => {
                 <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
                 <div>
                     <h1 className="animate-bounce text-center absolute text-6xl fon-bold text-white left-24 bottom-[420px] font-lobster">{title}</h1>
+                    <button className="absolute btn left-[450px] text-5xl font-openSans font-bold bottom-[100px] bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">Order now</button>
                 </div>
 
             </div>
-            <div className="text-center mt-10 font-lobster">
+            <div className="text-center mt-10 font-lobster ">
                 <h1 className="text-5xl font-bold text-blue-800 animate-bounce">Service Details</h1>
                 <p className="mt-3 text-3xl font-bold">{description}</p>
             </div>

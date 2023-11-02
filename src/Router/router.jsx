@@ -11,11 +11,15 @@ import EventDetails from "../components/EventDetails/EventDetails";
 import Login from "../components/Login/Login";
 import Register from "../components/Register/Register";
 import Services from "../pages/Services/Services";
+import PrivateRoute from "../components/PrivateRoute/PrivateRoute";
+import ErrorElement from "../pages/ErrorElement/ErrorElement";
+
 
   const router = createBrowserRouter([
     {
       path: "/",
       element: <Root></Root>,
+      errorElement: <ErrorElement></ErrorElement>,
       children: [
         {
           path: "/",
@@ -28,7 +32,7 @@ import Services from "../pages/Services/Services";
         },
         {
           path: "/services",
-          element: <Services></Services>
+          element: <PrivateRoute><Services></Services></PrivateRoute>
         },
         {
           path: "/login",

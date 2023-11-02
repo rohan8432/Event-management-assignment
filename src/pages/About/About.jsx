@@ -3,7 +3,7 @@ import logo from "../../assets/Card imge/Event socio.png";
 
 const About = () => {
     return (
-        <div>
+        <div className="mb-6">
             <h1 className="text-7xl font-bold font-lobster text-center mt-20 text-blue-800 animate-bounce">About Us</h1>
             <div className="mt-16">
                 <img src={about} alt="" />
@@ -16,7 +16,7 @@ const About = () => {
                 <img className="text-center animate-bounce" height={250} width={250} src={logo} alt="" />
                 <p className="text-white font-roboto text-xl">Social event management companies offer a variety of services to assist clients in hosting successful events. These services may include event planning, venue selection, budget management, event design and decor, catering, entertainment booking, guest list management, logistics coordination, and more.</p>
 
-                <button className="bg-red-600 text-white font-bold text-4xl mt-16 px-6 py-3 rounded-lg hover:bg-black">MORE ABOUT US</button>
+                <button className="bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-bold text-4xl mt-16 px-6 py-3 rounded-lg ">MORE ABOUT US</button>
             </div>
         </div>
     );

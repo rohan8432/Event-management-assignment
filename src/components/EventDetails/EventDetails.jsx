@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import EventDetailCard from "../EventDetailCard/EventDetailCard";
-import Services from "../../pages/Services/Services";
+
 
 
 const EventDetails = () => {
@@ -22,7 +22,7 @@ const EventDetails = () => {
     },[id, EventsData])
     
     return (
-        <div>
+        <div className="mb-10">
            
             <EventDetailCard events={events}></EventDetailCard>
             

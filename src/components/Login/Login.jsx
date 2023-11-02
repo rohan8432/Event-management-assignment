@@ -1,16 +1,18 @@
 import { useContext, useState } from 'react';
-import { FaEye, FaEyeSlash, FaGithub, FaGoogle } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import { FaEye, FaEyeSlash,  FaGoogle } from 'react-icons/fa';
+import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../Provider/AuthProvider';
 
 const Login = () => {
 
-    const {signInUser} = useContext(AuthContext);
+    const {signInUser,  googleAuth } = useContext(AuthContext);
 
     
     const [registerError, setRegisterError] = useState('');
     const [success, setSuccess] = useState('');
     const [showPass, setShowPass] = useState(false);
+
+    const navigate = useNavigate();
      
     const handleLogin = e =>{
         e.preventDefault();
@@ -22,18 +24,29 @@ const Login = () => {
         .then(result => {
             console.log(result.user)
             setSuccess('Successfully login')
+            navigate('/')
         })
         .catch(error =>{
             console.error(error)
             setRegisterError(error.message)
         })
 
+    }
+    const handleGoogle =() =>{
+      googleAuth()
+      .then(result =>{
+        console.log(result.user)
+
+      })
+      .catch(error =>{
+        console.error(error);
+      })
 
     }
   
     return (
         <div>
-            <div className="hero min-h-screen">
+            <div className="hero min-h-screen mb-7">
                 <div>
 
                     <h1 className="text-5xl font-bold my-8 text-center">Login now!</h1>
@@ -63,15 +76,11 @@ const Login = () => {
                             <p className='text-sm'>New to Event Socio? Please <span className='text-blue-800 underline'><Link to="/register">Register</Link></span></p>
                             <p className='mt-10 text-center text-gray-400 text-sm'>---------- or -----------</p>
                             <div className='mt-5'>
-                                <button className="btn btn-outline w-full">
+                                <button onClick={handleGoogle}  className="btn btn-outline w-full">
                                     <FaGoogle></FaGoogle>
                                    Continue with Google
                                 </button>
-                                <button className="btn btn-outline w-full mt-3">
-                                    <FaGithub></FaGithub>
-                                  Continue with GitHub
-
-                                </button>
+                               
 
                             </div>
                             {
