@@ -64,7 +64,7 @@ const Login = () => {
                                     <span className="label-text">Password</span>
                                 </label>
                                 <input type={showPass ? "text" : "password"} name='password' placeholder="password" className="input input-bordered" required />
-                                <span className="absolute right-14 bottom-[365px]" onClick={() => setShowPass(!showPass)}>{
+                                <span className="absolute right-14 bottom-[300px]" onClick={() => setShowPass(!showPass)}>{
                                 showPass ? <FaEyeSlash></FaEyeSlash> : <FaEye></FaEye>
 
                             }</span>
