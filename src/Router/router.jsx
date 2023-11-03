@@ -45,7 +45,7 @@ import ErrorElement from "../pages/ErrorElement/ErrorElement";
         {
           path: "/event/:id",
           loader: ()=>fetch('/data.json'),
-          element: <EventDetails></EventDetails>
+          element: <PrivateRoute><EventDetails></EventDetails></PrivateRoute>
         }
       ]
     },
